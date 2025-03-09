@@ -11,7 +11,7 @@
 
 *Learn how to build an interactive grid in Three.js without relying on an animation library*
 
-![Image Title](https://generative-placeholders.glitch.me/image?width=800&height=600")
+![Image Title](./images/cover.jpg)
 
 [Article on Codrops](https://tympanus.net/codrops/?p=)
 
@@ -23,7 +23,7 @@ Run this demo on a [local server](https://developer.mozilla.org/en-US/docs/Learn
 
 ## Credits
 
-- Images generated with [Midjourney](https://midjourney.com)
+- Original concept - [Amin Ankward](https://x.com/Amin_Ankward)
 
 ## Misc
 

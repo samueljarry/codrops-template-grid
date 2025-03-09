@@ -1,15 +1,6 @@
-*How to use this template:*
-
-- Styles for the demo go in css/base.css
-- Add build instructions and credits to the README.md
-- For writing the tutorial, take a look at https://github.com/crnacura/CodropsTemplate/wiki/Writing-the-article
-- Delete this 'how to' intro in the final version and leave the following (fill in title/description, credits and social links of your likings, we'll do the rest):
-
--------
-
 # Building an interactive image grid with Three.js
 
-*Learn how to build an interactive grid in Three.js without relying on an animation library*
+*Learn how to build and animate an interactive grid in Three.js without relying on an animation library*
 
 ![Image Title](./images/cover.jpg)
 
@@ -27,7 +18,7 @@ Run this demo on a [local server](https://developer.mozilla.org/en-US/docs/Learn
 
 ## Misc
 
-Follow *Author*: [Twitter](https://x.com/smljry), [GitHub](https://github.com/samueljarry) ...
+Follow *Author*: [Twitter](https://x.com/smljry), [GitHub](https://github.com/samueljarry)
 
 Follow Codrops: [Bluesky](https://bsky.app/profile/codrops.bsky.social), [Facebook](http://www.facebook.com/codrops), [GitHub](https://github.com/codrops), [Instagram](https://www.instagram.com/codropsss/), [X](http://www.x.com/codrops)
 

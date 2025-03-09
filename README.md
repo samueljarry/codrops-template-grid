@@ -7,9 +7,9 @@
 
 -------
 
-# Title of the demo
+# Building an interactive image grid with Three.js
 
-*A description of the demo goes here.*
+*Learn how to build an interactive grid in Three.js without relying on an animation library*
 
 ![Image Title](https://generative-placeholders.glitch.me/image?width=800&height=600")
 
@@ -27,7 +27,7 @@ Run this demo on a [local server](https://developer.mozilla.org/en-US/docs/Learn
 
 ## Misc
 
-Follow *Author*: [Twitter](), [Instagram](), [GitHub]() ...
+Follow *Author*: [Twitter](https://x.com/smljry), [GitHub](https://github.com/samueljarry) ...
 
 Follow Codrops: [Bluesky](https://bsky.app/profile/codrops.bsky.social), [Facebook](http://www.facebook.com/codrops), [GitHub](https://github.com/codrops), [Instagram](https://www.instagram.com/codropsss/), [X](http://www.x.com/codrops)
 

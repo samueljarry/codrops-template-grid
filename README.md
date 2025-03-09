@@ -2,7 +2,7 @@
 
 *Learn how to build and animate an interactive grid in Three.js without relying on an animation library*
 
-![Image Title](./images/cover.jpg)
+![Image Title](./images/cover.png)
 
 [Article on Codrops](https://tympanus.net/codrops/?p=)
 

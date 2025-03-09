@@ -27,6 +27,8 @@ export class Main {
     AssetsManager.AddTexture(AssetsId.TEXTURE_10, "./images/img10.webp");
 
     await AssetsManager.Load();
+
+    document.body.classList.remove('loading')
   }
 
   static #_CreateScene() {

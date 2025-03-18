@@ -33,8 +33,8 @@ export class Main {
 
   static #_CreateScene() {
     const var2 = window.location.href.includes('index2');
-    const Grid = var2 ? Grid2 :  Grid1
-    
+    const Grid = var2 ? Grid2 : Grid1
+
     MainThree.Add(new Grid());
   }
 }

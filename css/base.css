@@ -5,15 +5,13 @@
 }
 
 :root {
-  font-size: 12px;
+  font-size: 11px;
   --color-text: #313131;
   --color-bg: #F8F7F9;
   --color-link: #313131;
   --color-link-hover: #313131;
-  --page-padding: 1.5rem;
+  --page-padding: 1rem;
 }
-
-
 
 body {
   margin: 0;
@@ -21,7 +19,7 @@ body {
   overflow: hidden;
   color: var(--color-text);
   background-color: var(--color-bg);
-  font-family: ui-monospace, monospace;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -29,7 +27,6 @@ body {
 main {
   width: 100svw;
   height: 100svh;
-
   display: flex;
   flex-direction: column;
 }
@@ -61,33 +58,33 @@ main {
       background: var(--color-link);
       animation: loaderAnim 1.5s ease-in-out infinite alternate forwards;
     }
+  }
+}
 
-    @keyframes loaderAnim {
-      0% {
-        transform: scaleX(0);
-        transform-origin: 0% 50%;
-      }
+@keyframes loaderAnim {
+  0% {
+    transform: scaleX(0);
+    transform-origin: 0% 50%;
+  }
 
-      50% {
-        transform: scaleX(1);
-        transform-origin: 0% 50%;
-      }
+  50% {
+    transform: scaleX(1);
+    transform-origin: 0% 50%;
+  }
 
-      50.1% {
-        transform: scaleX(1);
-        transform-origin: 100% 50%;
-      }
+  50.1% {
+    transform: scaleX(1);
+    transform-origin: 100% 50%;
+  }
 
-      100% {
-        transform: scaleX(0);
-        transform-origin: 100% 50%;
-      }
-    }
+  100% {
+    transform: scaleX(0);
+    transform-origin: 100% 50%;
   }
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--color-link);
   outline: none;
   cursor: pointer;
@@ -113,7 +110,7 @@ a {
 }
 
 .frame {
-  padding: 3rem var(--page-padding) 0;
+  padding: var(--page-padding);
   display: grid;
   z-index: 1000;
   position: relative;
@@ -176,7 +173,6 @@ a {
   }
 
   @media screen and (min-width: 53em) {
-    padding: var(--page-padding);
     height: 100%;
     position: fixed;
     top: 0;
@@ -203,7 +199,6 @@ a {
 }
 
 .content {
-  /* padding: var(--page-padding); */
   display: flex;
   flex-direction: column;
   width: 100vw;
@@ -211,13 +206,14 @@ a {
   position: relative;
 
   @media screen and (min-width: 53em) {
-    min-height: 100vh;
+    height: calc(100vh - 7rem);
     justify-content: center;
     align-items: center;
+    margin: auto;
   }
 }
 
 #THREE-CONTAINER {
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
 }
